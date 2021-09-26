@@ -18,7 +18,7 @@ body {
 
 h1, h2 {
     font-family: Oswald, sans-serif;
-    color: #333;
+    color: #f2f2f2;
     letter-spacing: 4px; 
 }
 
@@ -26,7 +26,7 @@ h1, h2 {
 
 nav {
     width: 100%;
-    background:#EBF2F9;
+    background: #f2f2f2;;
     overflow: auto;
 }
 
@@ -54,6 +54,7 @@ nav a {
     float: left;
     font-size: 190%;
     margin-left: 30px;
+    color: #333;
 }
 
 #logo:hover {
@@ -69,7 +70,7 @@ nav a {
 
 
 #img {
-    height: 300px;
+    height: 800px;
     width: 100%;
     background: URL('../images/pic1.jpg') no-repeat center center;
     background-position: center;
@@ -78,23 +79,41 @@ nav a {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 210%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    color: white;
-    
-
-    width: 300px;
+    letter-spacing: 2px;
+    color: #f2f2f2;
+    width: 600px;
     height: 300px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-    
     bottom: 300px;
     right: 450px;
-
     position: absolute;
+}
+
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin: 80px;
+}
+
+.card {
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+.card-image {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    line-height: 1.5;
+    padding: 15px;
+    font-size: 0.9em;
+    background: #fafafa;
 }
 
 /* Grid Galllery*/
@@ -102,7 +121,7 @@ nav a {
 .image-grid {
    
     box-sizing: border-box;
-    padding: 16px;
+    padding: 10px;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -124,27 +143,16 @@ nav a {
     grid-row: span 2;
 }
 
-/* Screen under 1024px */
-
-@media screen and (max-width: 1024px) {
-    .image-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 200px;
-    }
-    
-}
-
 
 /* Signup Form*/
-
 .body {
     background-image: url('../images/pic1.jpg');
     background-position: center;
     background-size: cover;
-    opacity: 0.6;
-  
-
+    margin: 0;
 }
+
+
 .sign-up-form
 {
     width: 300px;
@@ -152,8 +160,7 @@ nav a {
     background: #f2f2f2;
     margin: 8% auto 0;
     box-shadow: 0 0 0 3px  rgba(0, 0, 0, 0.3);
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .sign-up-form h1 {
@@ -203,6 +210,8 @@ hr {
     margin: -19px auto 10px;
     
 }
+
+
 /* footer */
 
 footer {
@@ -222,4 +231,37 @@ footer {
     margin: 1%;
     padding: 5%;
     color:#d9c1bf;
+}
+
+
+
+/* Screen under 1024px */
+
+@media screen and (max-width: 1024px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 200px;
+    }
+    
+    #cover-text {
+        left: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .image-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 200px;
+    }
+    
+    .image-grid-cols-2 {
+        grid-column: 1;
+    }
+    
+    #cover-text {
+        left: 0;
+    }
+
 }
