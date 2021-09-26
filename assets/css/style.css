@@ -290,6 +290,9 @@ footer {
     
     #cover-text {
         left: 0;
+        font-size: 120%;
+        padding: 20px;
+        text-align: center;
     }
 
     .cards {
