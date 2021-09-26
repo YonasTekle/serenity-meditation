@@ -4,19 +4,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif; 
+    font-family: 'Lato', sans-serif; 
     list-style: none;
     text-decoration: none;
 }
 
 body {
     color: #333;
-    background:#f2f2f2;
-    font-family: 'Oswald', sans-serif;
+    background: #c1c1c1;;
+    font-family: 'Lato', sans-serif;
     margin: 0;
 }
 
-h1, h2 {
+h1 {
     font-family: Oswald, sans-serif;
     color: #f2f2f2;
     letter-spacing: 4px; 
@@ -91,13 +91,31 @@ nav a {
     position: absolute;
 }
 
+#slogan {
+    font-size: 150%;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333;
+    text-align: center;
+    padding: 40px;
+}
+
+#cards-main {
+    width: 100%;
+    background: #f2f2f2;
+    margin: 40px 0 40px 0;
+    
+}
+
 .cards {
+    width: 100%;
     margin: 0 auto;
     max-width: 1000px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
-    margin: 80px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
 }
 
 .card {
@@ -113,7 +131,7 @@ nav a {
     line-height: 1.5;
     padding: 15px;
     font-size: 0.9em;
-    background: #fafafa;
+    background: #f2f2f2;
 }
 
 /* Grid Galllery*/
@@ -161,10 +179,11 @@ nav a {
     margin: 8% auto 0;
     box-shadow: 0 0 0 3px  rgba(0, 0, 0, 0.3);
     text-align: center;  
+    opacity: 0.9;
 }
 
 .sign-up-form h1 {
-    color: #38a3a5;
+    color: #5c89c4;
     margin-bottom: 30px;
 }
 
@@ -189,11 +208,11 @@ button {
 }
 
 .singup-btn {
-    background-color: #38a3a5;
+    background-color: #5c89c4;
 }
 
 .google-singup-btn {
-    background-color: #73bec0 ;
+    background-color:#9DB8DB;
 }
 
 a {
@@ -230,7 +249,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color:#d9c1bf;
+    color:#333;
 }
 
 
@@ -245,6 +264,11 @@ footer {
     
     #cover-text {
         left: 0;
+    }
+    
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 200px;
     }
 
 }
@@ -263,5 +287,7 @@ footer {
     #cover-text {
         left: 0;
     }
+
+    
 
 }
