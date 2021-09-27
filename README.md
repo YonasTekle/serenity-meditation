@@ -2,7 +2,7 @@
 
 Serenity meditatinon is a mediation and mindfulness site. The site will be targeting people that need to calm down and live a stress-free life. Free online classes and unique mediation technique for physical and mental relaxation is available.
 
-![Responsice ](images/image)
+![Responsice ](images/image.PNG)
 
 ## Features 
 
