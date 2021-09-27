@@ -15,14 +15,14 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](link to navbar)
+![Nav Bar](images/nav-bar.PNG)
 
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](link to hero-image)
+![Landing Page](images/Hero-image.PNG)
 
 - __Grid Section__
 
@@ -39,19 +39,19 @@ In this section, you should go over the different parts of your project, and des
   - The footer is valuable to the user as it encourages them to keep connected via social media
   - The footer has some contact information to make it easy for users to get in touch with the serenity meditation club
 
-![Footer](link to foote img)
+![Footer](images/footer.PNG)
 
 - __Gallery__
 
   - The gallery will provide the user with inspirational images to motivate them to start practicing meditation.
 
-![Gallery](link to gallery img)
+![Gallery](images/gallery-image.PNG)
 
 - __The Sign Up Page__
 
   - - This page will allow the user to get signed up to the Serenity Meditation club to start their journey into inner peace. The user will be asked to submit their full name and    email address. 
 
-![Sign Up](link to signup img)
+![Sign Up](images/signup-img.PNG)
 
 
 ## Testing 
