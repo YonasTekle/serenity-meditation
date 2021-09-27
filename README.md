@@ -90,8 +90,9 @@ You can break the credits section up into Content and Media, depending on what y
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - The grid layout for  gallery pages were taken from [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
 - Instructions on how to implement card layot for home page were taken from [CSS Grid](https://www.youtube.com/watch?v=rV67qQahXAc)
+- The code for the footer content was taken from project [Love Running](https://github.com/YonasTekle/love-running)
 
-
+ 
 ### Media
 
 - The images in alll pages were taken from [Pexel](https://www.pexels.com/sv-se/)
